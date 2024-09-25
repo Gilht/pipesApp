@@ -32,16 +32,6 @@ export class MenuComponent implements OnInit {
                 routerLink: "uncommon"
               },
             ]
-          },
-          {
-            label: "Pipes Personalizados",
-            icon: "pi pi-cog",
-            items: [
-              {
-                label: "Otro elemento",
-                icon: "pi pi-cog",
-              }
-            ]
           }
         ];
     }
