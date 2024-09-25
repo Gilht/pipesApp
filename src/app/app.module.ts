@@ -6,16 +6,14 @@ import { SharedModule } from './shared/shared.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
-  declarations: [
-    AppComponent
-  ],
+  declarations: [AppComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
-   SharedModule,
-   BrowserAnimationsModule
+    SharedModule,
+    BrowserAnimationsModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
